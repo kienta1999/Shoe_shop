@@ -1,6 +1,6 @@
 <template>
     <div class="contact-form">
-        <h2>Get in touch to explore more shoes options</h2>
+        <h2>Get in touch to explore our exclusive shoes options</h2>
         <form @submit.prevent="submitForm">
             <div>
                 <p v-if="formData.message != null" class="message">{{ formData.message }}</p>
